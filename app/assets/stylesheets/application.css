@@ -33,3 +33,10 @@
 .navbar-brand:hover{
   transform: scale(1.05);
 }
+#protitle{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gray;
+  display: block;
+  text-align: center;
+
+}
