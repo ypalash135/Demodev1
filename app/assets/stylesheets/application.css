@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ #products{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .card{
+    margin: 5px;
+ }
+ .card:hover{
+    transform: scale(1.1)
+ }
