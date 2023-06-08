@@ -14,13 +14,22 @@
  *= require_self
  */
  #products{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
  }
  .card{
-    margin: 5px;
+  margin: 5px;
  }
  .card:hover{
-    transform: scale(1.1)
+  transform: scale(1.05)
  }
+.navbar-brand{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  color: chocolate;
+  font-size:x-large;
+}
+.navbar-brand:hover{
+  transform: scale(1.05);
+}

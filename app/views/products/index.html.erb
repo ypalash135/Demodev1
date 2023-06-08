@@ -8,12 +8,12 @@
   <img src="https://assets.thehansindia.com/h-upload/2022/07/18/1303611-pro.webp" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title"><%=product.name%></h5>
-      <p class="card-text"><%=product.price%></p>
+      <p class="card-text"><%=product.price%> rs/-</p>
       <p class="card-text"><%=product.description%></p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
 </div>
   <% end %>
 </div>
+<button type="button" class="btn btn-outline-success"><%= link_to "New product", new_product_path %></button>
 
-<%= link_to "New product", new_product_path %>
