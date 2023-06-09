@@ -38,5 +38,13 @@
   color: gray;
   display: block;
   text-align: center;
-
+}
+#buymore{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin: 5px;
+  display: block;
+  text-align: center;
 }

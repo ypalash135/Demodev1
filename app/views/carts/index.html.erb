@@ -1,3 +1,23 @@
-<%=@carts.each do |item| %>
-  <%=item%>
-<% end %>
+<h1>Cartsindex</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">PRODUCT NUMBER</th>
+      <th scope="col">NAME</th>
+      <th scope="col">PRICE</th>
+      <th scope="col">DESCRIPTION</th>
+    </tr>
+  </thead>
+  <tbody>
+  <%@carts.each_with_index do |cartitems,index|%>
+    <tr>
+      <th scope="row"><%=index+1%></th>
+      <td><%=cartitems.product.name%></td>
+      <td><%=cartitems.product.price%></td>
+      <td><%=cartitems.product.description%></td>
+      <td></td>
+    </tr>
+    <%end%>
+  </tbody>
+</table> 
+<li id='buymore'><%= link_to 'click here to BUY MORE PRODUCTS', products_path, class:'nav-link active'%><li>
