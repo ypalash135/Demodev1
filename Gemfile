@@ -33,6 +33,7 @@ gem 'kaminari'
 
 gem 'will_paginate', '~> 4.0'
 
+gem 'byebug'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
